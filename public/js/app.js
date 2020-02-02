@@ -22,7 +22,7 @@ form.addEventListener('submit', (e) => {
 
 const fetchData = (query, page) => {
 
-     fetch(`http://localhost:3000/api?key=${query}&page=${page}`).then((response) => {
+     fetch(`/api?key=${query}&page=${page}`).then((response) => {
         
         
         response.json()
