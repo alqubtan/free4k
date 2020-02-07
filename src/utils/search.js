@@ -4,7 +4,7 @@ const request = require('request')
 const search = (query, page, callback) => {
     
     const option = {
-        url: `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&page=${encodeURIComponent(page)}&per_page=10`,
+        url: `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&page=${encodeURIComponent(page)}&per_page=8`,
         json: true,
         headers: {
             Authorization: '563492ad6f917000010000011c5bce3ad894427681a58d21b4b8e8d4'
